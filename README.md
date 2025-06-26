@@ -1,51 +1,62 @@
-# Natural ou Fake Natty? Como Vencer na Era das IAs Generativas
-
-## 🚀 Introdução
-
-> Woooow! Look at this 👀
-
-Olá pessoal, Venilton da DIO aqui! Inspirado na hype _"Natty or Not"_ do fisiculturismo, este Lab da DIO te convida a conhecer o mundo das IAs Generativas, explorando o potencial dessas tendências tecnológicas incríveis!
-
-## 🎯 Bora Pro Desafio!? Você Já Venceu 💪🤓
-
-### Objetivos
-
-1. **Explorar IAs Generativas**: Utilize essas tecnologias para criar conteúdos que sejam o mais realista possível. Seja criativo! Você pode produzir imagens, textos, áudios, vídeos ou combinações de tudo isso!
-1. **Potfólio de Projetos**:
-    1. Faça o "fork" deste repositório, criando uma cópia em seu GitHub pessoal;
-    2. Edite seu README com os detalhes do seu projeto, siga nosso [Template](#template) (é só copiar, colar e preencher);
-    3. Submeta o link do seu repositório na plataforma da DIO. Pronto, você acabou de fortalecer seu portfólio de projetos nos perfis do GitHub e DIO 🚀
-1. **Efeito de Rede**: Compartilhe seus resultados nas redes sociais com a hashtag **#LabDIONattyOrNot**. Não esqueça de nos marcar: [DIO](https://www.linkedin.com/school/dio-makethechange) e [falvojr](https://www.linkedin.com/in/falvojr).
-
-### Template
-
-```markdown
-# Título do Projeto Extremamente Aesthetic ;)
+# Sistema de Controle de Manutenções Preventivas e Corretivas
 
 ## 📒 Descrição
-Breve descrição do seu projeto
+Este projeto visa criar um sistema eficiente para o gerenciamento de manutenções preventivas e corretivas em equipamentos, veículos ou instalações. O objetivo é garantir o pleno funcionamento dos ativos, reduzindo o tempo de inatividade e melhorando a gestão das ordens de serviço.
 
 ## 🤖 Tecnologias Utilizadas
-Liste as IAs Generativas e outras ferramentas usadas
+- **IA Generativa para Atendimento e Diagnóstico**: 
+  - ChatGPT (OpenAI) para suporte ao usuário, triagem de chamados e sugestão de diagnósticos automáticos.
+  - Gemini (Google) para análise de históricos de falhas e recomendação de ações preventivas.
+- **Ferramentas de Desenvolvimento**:
+  - Node.js ou Python (Backend)
+  - React ou Angular (Frontend)
+  - MongoDB ou PostgreSQL (Banco de Dados)
+  - Docker para conteinerização
+  - GitHub Actions para CI/CD
+- **Outras Tecnologias**:
+  - APIs para integração com sensores IoT
+  - Notificações via e-mail/WhatsApp
 
 ## 🧐 Processo de Criação
-Descreva como você criou o conteúdo
+1. **Levantamento de Requisitos**: Definição das funcionalidades essenciais, tais como cadastro de ativos, agendamento de manutenções, registro de ocorrências e controle de ordens de serviço.
+2. **Prototipação**: Criação de wireframes das principais telas do sistema.
+3. **Desenvolvimento Backend**: Implementação das APIs REST e lógica de negócios.
+4. **Desenvolvimento Frontend**: Construção das interfaces para desktop e mobile.
+5. **Integração de IA**: Utilização de modelos generativos para análise de dados e suporte inteligente.
+6. **Testes**: Testes unitários, integrados e de usabilidade.
+7. **Deploy e Monitoramento**: Publicação da aplicação em ambiente cloud e monitoramento contínuo.
 
 ## 🚀 Resultados
-Apresente os resultados do seu projeto
+- **Dashboard de Ativos**: Visualização rápida do status de todos os equipamentos.
+- **Gestão de Ordens de Serviço**: Emissão, acompanhamento e fechamento de OS.
+- **Alertas Inteligentes**: Notificações automáticas para manutenções preventivas e detecção precoce de falhas.
+- **Relatórios Gerenciais**: Estatísticas de falhas, custos e histórico de manutenções.
 
-## 💭 Reflexão (Opcional)
-Comente sobre o desafio de criar algo 'natty' com IA.
+### Exemplos de Telas
+
+#### Dashboard Principal
+```
+| Ativo        | Status       | Próxima Manutenção | Última Ocorrência |
+|--------------|--------------|--------------------|-------------------|
+| Gerador 01   | OK           | 10/07/2025         | 20/06/2025        |
+| Compressor 02| Manutenção   | 05/07/2025         | 25/06/2025        |
 ```
 
-### Exemplos e Insigths
+#### Ordem de Serviço
+```
+| Nº OS | Ativo      | Tipo      | Data Abertura | Status      | Responsável |
+|-------|------------|-----------|---------------|-------------|-------------|
+| 123   | Gerador 01 | Corretiva | 20/06/2025    | Em andamento| João Silva  |
+| 124   | Compressor | Preventiva| 25/06/2025    | Finalizada  | Maria Lima  |
+```
 
-- [E-BOOK](/exemplos/E-BOOK.md)
-- [Podcast](/exemplos/PODCAST.md)
-- [Vídeo (Avatar Virtual)](/exemplos/VIDEO.md)
+#### Tela de Cadastro de Ativos
+- Formulário para inclusão de novos equipamentos com campos como: nome, fabricante, data de aquisição, periodicidade da manutenção, etc.
 
-## Links Interessantes
+---
 
-[Base10: If You’re Not First, You’re Last: How AI Becomes Mission Critical](https://base10.vc/post/generative-ai-mission-critical/)
+## 👤 Contato
+- [LinkedIn - Marcondes Borba](https://www.linkedin.com/in/mborba82)
+- [GitHub - marcondesoborba](https://github.com/marcondesoborba)
 
-![Base10's Trend Map Generative AI](https://github.com/digitalinnovationone/lab-natty-or-not/assets/730492/f4df26e8-f8f7-4419-8252-c69d73ea930c)
+#LabDIONattyOrNot
